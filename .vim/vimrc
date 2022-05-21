@@ -1,0 +1,55 @@
+" __   _(_)_ __ ___  _ __ ___
+" \ \ / / | '_ ` _ \| '__/ __|
+"  \ V /| | | | | | | | | (__
+"   \_/ |_|_| |_| |_|_|  \___|
+
+
+" vimrc for Jonas Stehli
+"
+"
+" Maintainer:	Jonas Stehli <jonas.stehli@jsounds.ch>
+" Last change:	2020-06-01
+
+" make sure current features are enabled
+set nocompatible
+
+" color scheme
+colorscheme badwolf
+
+" syntax highlighting
+syntax enable
+
+" filetype specific behaviour
+filetype plugin indent on
+
+" search down into subdirectories
+" provides tab-completion for all file related tasks
+" reference: youtube.com/watch?v=XA2WjJbmmoM&t=408s
+set path+=**
+
+" tab behaviour
+set tabstop=4  " # of spaces used for displaying tab
+set softtabstop=4  " # of spaces used when typing tab
+set expandtab  " use spaces instead of tab
+
+" indent after keywords
+set smartindent
+set shiftwidth=4
+
+" scrolling
+set scrolloff=10 " Keep lines below & above cursor.
+
+" ui config
+set number relativenumber " show hybrid line numbers
+set showcmd  " shows last entered command at the bottom right of vim
+set cursorline  " highlight current line
+" filetype indent on  " load filetype-specific indent files
+set wildmenu  " visual autocomplete for command menu
+set lazyredraw  " only redraw when we need to
+set showmatch  " highlight matching {[()]}
+set list  " show list characters as defined by 'listchars' below
+set listchars=tab:>-,trail:·,extends:>,precedes:<
+set laststatus=2  " always show filename
+
+" latex behaviour (proposed in vimtex manual)
+let g:tex_flavor = 'latex'

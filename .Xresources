@@ -1,0 +1,66 @@
+! X11 colors pieced together by Dmitry Medvinsky.
+! Based on Vim colorscheme "badwolf" pieced together by Steve Losh.
+
+*background: #1c1b1a
+*foreground: #f8f6f2
+*cursorColor: #aeee00
+*scrollColor: #45413b
+*fadeColor: #ffffff
+! fading changed from 20
+*fading: 3
+
+! black
+*color0: #141413
+*color8: #000000
+! red
+*color1: #ff2c4b
+*color9: #ff2c4b
+! green
+*color2: #aeee00
+*color10: #aeee00
+! yellow
+*color3: #fade3e
+*color11: #ffa724
+! blue
+*color4: #0a9dff
+*color12: #0a9dff
+! magenta
+*color5: #ff9eb8
+*color13: #ff9eb8
+! cyan
+*color6: #8cffba
+*color14: #8cffba
+! white
+*color7: #d9cec3
+*color15: #ffffff
+
+
+! Dracula Xresources palette
+! *.foreground: #F8F8F2
+! *.background: #282A36
+! *.color0:     #000000
+! *.color8:     #4D4D4D
+! *.color1:     #FF5555
+! *.color9:     #FF6E67
+! *.color2:     #50FA7B
+! *.color10:    #5AF78E
+! *.color3:     #F1FA8C
+! *.color11:    #F4F99D
+! *.color4:     #BD93F9
+! *.color12:    #CAA9FA
+! *.color5:     #FF79C6
+! *.color13:    #FF92D0
+! *.color6:     #8BE9FD
+! *.color14:    #9AEDFE
+! *.color7:     #BFBFBF
+! *.color15:    #E6E6E6
+
+! Font
+
+URxvt.font: xft:Source Code Pro:size=11:antialias=true:hinting=true, xft:monospace:size=11
+
+! Font Spacing
+
+URxvt.letterSpace: -1
+
+URxvt.scrollBar: false

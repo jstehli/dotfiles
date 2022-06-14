@@ -51,6 +51,13 @@ xrandr
 
 numlockx on
 
+# *** BLUEMAN (bluetooth utility)
+
+blueman-applet &
+
+# *** TOUCHPAD SETTINGS ***
+# enable tapping
+xinput set-prop 13 344 1
 
 # *** START I3 WINDOW MANAGER ***
 
